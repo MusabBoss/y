@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="musab.css">
+</head>
+<body>
+    <a href="login.html"><img src="logout.svg"><p>Log out</p></a>
+    <div id="calculator">
+        <h1>Calculator</h1>
+        <div id="result">Insert number</div>
+    <input type="text" id="firstnum" placeholder="first number">
+    <input type="text" id="secondnum" placeholder="second number">
+    <div>
+    <button  onclick="add()"><abbr title="Addition">Add</abbr></button>
+    <button onclick="sub()"><abbr title="Subtraction">Sub</abbr></button>
+    <button onclick="mul()"><abbr title="Multiplication">Mul</abbr></button>
+    <button onclick="div()"><abbr title="Division">Div</abbr></button>
+<button onclick="other()" style="font-size: 10pt;padding: 5px 15px;">others</button>
+<div id="content" style="display: none;">
+    <button onclick="square()"id="square" >x<sup>2</sup></button>
+    <button onclick="cube()"id="cube" >x<sup>3</sup></button>
+</div>
+</div>
+ <script src="musab.js"></script>
+</body>
+</html>

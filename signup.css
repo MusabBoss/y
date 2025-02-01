@@ -1,0 +1,141 @@
+body>div input#i1[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid skyblue;
+    margin-left: 465px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: #fff;
+}
+body>div input#i2[type="text"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid skyblue;
+    margin-top: 25px;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: #fff;
+
+}
+body>div input[type="text"]:hover{
+    box-shadow: 2px 2px 2px rgb(219, 219, 219);
+    border-bottom: 3px solid skyblue;
+}
+div>h1{
+    margin-left: 452px;
+    color: cadetblue;
+    font-size: 33pt;
+font-family: Arial, Helvetica, sans-serif;
+}
+div input[type="submit"]{
+    margin-left: 475px;
+margin-top: 10px;
+padding: 7.5px 25px;
+background-color: cadetblue;
+border: none;
+border-radius: 5px;
+}
+body>div{
+    margin-top: 190px;
+}
+#signin{
+    padding: 10px 60px;
+    background-color: silver;
+    border-radius: 10px;
+    border: none;
+    margin-left: 3px;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#signup{
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 7px;
+    margin-top: 0px;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #3c00a0;
+}
+input[type="submit"]:hover{
+background-color: rgb(134, 182, 184);
+}
+#signin:focus{
+    background-color: #3c00a0;
+    color:#fff;
+}
+#signup:focus{
+background-color: #3c00a0;
+color: #fff;
+}
+input#email1{
+    width: 275px;
+    height: 35px;
+    border-radius: 6px;
+margin-left: 466px;
+margin-top: 10px;
+border-bottom: 2px solid skyblue;
+background-color: transparent;
+border-top: transparent;
+border-left: transparent;
+border-right: transparent;
+color: #fff;
+}
+input#email1:hover{
+    border-bottom: 3px solid skyblue;
+    box-shadow: 2px 2px 2px rgb(219, 219, 219);
+}
+input#i4{
+    width: 110px;
+    height: 33px;
+    border: 2px solid skyblue;
+    border-radius: 6px;
+    margin-left: 2px;
+}
+input::placeholder{
+    font-size: 13pt;
+    color: skyblue;
+    font-weight: 500;
+}
+input#password1{
+    width: 220px;
+    margin-left: 466px;
+    border-radius: 6px;
+    border: 2px solid skyblue;
+    height: 30px;
+margin-top: 10px;
+background-color: transparent;
+border-top: transparent;
+border-left: transparent;
+border-right: transparent;
+color: #fff;
+}
+input#password1:hover{
+    border-bottom: 3px solid skyblue;
+    box-shadow: 2px 2px 2px rgb(219, 219, 219);
+}
+body{
+    background-image:url(geometric-gradient-futuristic-background_23-2149116406.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main{
+    margin-top: 30px;
+    margin-left: 470px;
+}
+
+
+
+
